@@ -14,9 +14,9 @@
 PromptCLUE：多任务中文预训练模型
 
 ### 简介
-PromptCLUE：是一个多任务模型，支持100+中文任务，并具有零样本学习能力。
+PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具有零样本学习能力。
 针对理解类任务，如分类、情感分析、抽取等，可以自定义标签体系；针对生成任务，可以进行采样自由生成。
-基于t5模型，使用1000亿中文token（字词级别）进行大规模预训练，并且在众多下游任务上进行多任务学习获得。
+基于t5模型，使用1000亿中文token（字词级别）进行大规模预训练，并且在100+任务上进行多任务学习获得。
 
 ### 在线使用
 <a href='https://www.cluebenchmarks.com/clueai.html'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0'>colab使用示例</a>
