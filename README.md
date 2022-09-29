@@ -80,7 +80,7 @@ PromptCLUE：是一个多任务模型，支持100+中文任务，并具有零样
 
 ### 技术交流和问题反馈
 <p float="left">
-   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai.jpeg"  width="25%" height="25%" />   
+   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai1.jpeg"  width="25%" height="25%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="25%" height="25%" /> 
 </p> 
 
