@@ -19,7 +19,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 基于t5模型，使用1000亿中文token（字词级别）进行大规模预训练，并且在100+任务上进行多任务学习获得。
 
 ### 在线使用
-<a href='https://www.cluebenchmarks.com/clueai.html'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0'>colab使用示例</a>
+<a href='https://www.cluebenchmarks.com/clueai.html'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0'>colab使用示例</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE'>pCLUE: prompt中文数据集</a>
 
 ### 使用方法
 ##### 安装需要的项目和包
