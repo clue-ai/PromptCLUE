@@ -25,10 +25,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 ##### 安装需要的项目和包
     git clone https://github.com/huggingface/transformers.git
     pip install ./transformers
-    pip install -U nlp
-    pip install datasets
     pip install sentencepiece
-    pip install gcsfs
 ##### 加载模型
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
     tokenizer = AutoTokenizer.from_pretrained("ClueAI/PromptCLUE")
