@@ -77,7 +77,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 
 ### 使用自定义数据集进行训练-PyTorch实现
 
-* 使用<a href=''>pCLUE数据集</a>进行训练、预测和效果验证, pytorch实现--在线colab
+* 使用pCLUE数据集进行训练、预测和效果验证, pytorch实现--在线colab
   
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing)
   
