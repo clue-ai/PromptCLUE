@@ -19,7 +19,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 基于t5模型，使用1000亿中文token（字词级别）进行大规模预训练，并且在100+任务上进行多任务学习获得。
 
 ### 在线使用
-<a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
+<a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
 
 ### 使用方法
 ##### 安装需要的项目和包
@@ -74,6 +74,17 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
     情感倾向
     根据标题文章生成
     .....
+
+### 使用自定义数据集进行训练-PyTorch实现
+
+* 使用<a href=''>pCLUE数据集</a>进行训练、预测和效果验证, pytorch实现--在线colab
+  
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing)
+  
+### <a href='https://cluebenchmarks.com/pclue.html'>pCLUE基准上的效果</a>
+ 
+  <img src="https://github.com/CLUEbenchmark/pCLUE/blob/main/resources/imgs/baseline_result.png"  width="90%" height="90%" />   
+
 
 ### 示例输入
 
