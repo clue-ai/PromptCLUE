@@ -283,7 +283,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
     
 ### 技术交流和问题反馈
 <p float="left">
-   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai1.jpeg"  width="29%" height="29%" />   
+   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai2.jpeg"  width="29%" height="29%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="29%" height="29%" /> 
 </p> 
 
