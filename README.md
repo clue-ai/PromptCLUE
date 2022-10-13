@@ -11,7 +11,7 @@
 
 
 # PromptCLUE
-PromptCLUE：大规模多任务预训练中文开源模型
+PromptCLUE：大规模多任务Prompt预训练中文开源模型
 
 ### 简介
 PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具有零样本学习能力。
