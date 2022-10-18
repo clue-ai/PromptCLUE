@@ -79,7 +79,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 ### License（许可证）
 1）PromptCLUE-base可直接下载和使用；
 
-2）PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENSE'>非商用License</a>
+2）PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENCE'>非商用License</a>
 
 ### 使用方法
 ##### 安装需要的项目和包
