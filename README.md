@@ -51,7 +51,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 | 关键词提取 keywords_extraction | 41.44 | 47.78 | 
 | 信息抽取 ner | 63.02 | 70.09 | 
 | 知识图谱问答 knowledge_graph  | - | TODO |
-| 中心词提取 Keyword_extraction | - |71.50 |  
+| 中心词提取 Keyword_extraction | 66.50 |71.50 |  
 | *生成任务*（rouge，6类） |  |   | 
 | 翻译（英中、中英） nmt | 55.92 | 59.67 | 
 | 摘要 summary | 31.71 | 34.48| 
