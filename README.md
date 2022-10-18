@@ -78,7 +78,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 | 纠错 correct | - | 93.35  | 
 
 #### 使用方式及申请
-请提供以下<a hre='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
+<a href='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
 
 ### 在线使用
 <a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
