@@ -328,7 +328,7 @@ PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/L
     
 ### 技术交流和问题反馈
 <p float="left">
-   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/promptclue_group.jpeg"  width="29%" height="29%" />   
+   <img src="https://github.com/clue-ai/PromptCLUE/blob/main/docs/imgs/promptclue_group.jpeg"  width="29%" height="29%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="29%" height="29%" /> 
 </p> 
 
