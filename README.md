@@ -31,10 +31,9 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 
 ### PromptCLUE-large版
 
-#### 简介
 千亿中文token上大规模预训练，亿级任务数据上完成训练，训练任务超过150+；比base版平均任务提升7个点+；具有更好的理解、生成、问答、翻译和抽取等等能力。
 
-#### 技术与训练过程
+### 技术与训练过程
  1. 三大统一：统一模型框架(text-to-text)，统一任务形式(prompt)，统一应用方式(zero-shot/few-shot)。 (<a href='https://arxiv.org/abs/2110.08207'>T0</a>）
 
  2. 大规模预训练：在t5-large版基础上，使用数百G中文语料，训练了100万步，累积训练了1.5万亿个中文字词级别token
@@ -50,9 +49,7 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
  9. 重新构建模型中文字典：使用sentencepiece上在千亿token上学习并构建模型字典，更加符合中文语言习惯
     
 
-
-
-#### 效果对比
+### 效果对比
 
 |  任务类型  | PromptCLUE-base  | PromptCLUE-large    | 
 | :----:| :----: | :----: | 
@@ -77,14 +74,15 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 | 改写 paraphrase | - | 57.68  | 
 | 纠错 correct | - | 93.35  | 
 
-#### 使用方式及申请
-<a href='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
-
 ### 在线使用
 <a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
 
-### License（许可证） 
-PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENSE'>非商用License</a>
+### Large版在线申请
+<a href='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
+
+### License（许可证）
+1）PromptCLUE-base可直接下载和使用
+2）PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENSE'>非商用License</a>
 
 ### 使用方法
 ##### 安装需要的项目和包
