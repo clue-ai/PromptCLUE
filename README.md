@@ -3,7 +3,7 @@
 <br>
 <br>
 <a href="https://clueai.cn">
-   <img src="docs/imgs/logo.png"  alt="CLUEAI logo" width="65%" height="65%" />   
+   <img src="docs/imgs/logo.png"  alt="CLUEAI logo" width="72%" height="72%" />   
 
 <br>
 <br>
