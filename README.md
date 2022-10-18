@@ -2,7 +2,7 @@
 <br>
 <br>
 <br>
-<a href="https://clueai.cn"><img src="docs/imgs/logo.png" alt="CLUEAI logo: The data structure for unstructured data"></>
+<a href="https://clueai.cn"><img src="docs/imgs/logo.png" alt="CLUEAI logo: The data structure for unstructured data" height="70%" ></>
 <br>
 <br>
 <br>
@@ -50,15 +50,15 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 | 阅读理解 reading_comprehension | 71.69 | 84.78 | 
 | 关键词提取 keywords_extraction | 41.44 | 47.78 | 
 | 信息抽取 ner | 63.02 | 70.09 | 
-| 知识图谱问答 knowledge_graph  | - | TODO |
+| 知识图谱问答 knowledge_graph  | - | 53.11 |
 | 中心词提取 Keyword_extraction | 66.50 |71.50 |  
 | *生成任务*（rouge，6类） |  |   | 
 | 翻译（英中、中英） nmt | 55.92 | 59.67 | 
 | 摘要 summary | 31.71 | 34.48| 
 | 问答 qa | 21.18 | 27.05 | 
 | 生成（文章、问题生成） | 35.86 | 39.87 | 
-| 改写 paraphrase | - | TODO | 
-| 纠错 correct | - | TODO  | 
+| 改写 paraphrase | - | 57.68  | 
+| 纠错 correct | - | 93.35  | 
 
 #### 使用方式及申请
 请提供以下<a hre='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
