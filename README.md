@@ -15,6 +15,9 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型
 
 实现了中文上的三大统一：统一模型框架，统一任务形式，统一应用方式，并且支持几十个不同类型的任务；
 
+    统一模型框架：采用Text-to-Text的生成式预训练模型进行统一建模。
+    统一任务形式：Prompt统一不同的NLP任务间的差异，转化为统一的text-to-text数据形式。
+    统一应用方式：对目标任务形成拿来即用的模型，下游应用时都可转化为统一的prompt自适应方式，进行zero-shot/few-shot测试。 
 
 ### 简介
 PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具有零样本学习能力。
@@ -32,7 +35,21 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 千亿中文token上大规模预训练，亿级任务数据上完成训练，训练任务超过150+；比base版平均任务提升7个点+；具有更好的理解、生成、问答、翻译和抽取等等能力。
 
 #### 技术与训练过程
-在t5-large版基础上训练了100万步。预训练--多阶段Prompt多任务学习
+ 1. 三大统一：统一模型框架(text-to-text)，统一任务形式(prompt)，统一应用方式(zero-shot/few-shot)。 (<a href='https://arxiv.org/abs/2110.08207'>T0</a>）
+
+ 2. 大规模预训练：在t5-large版基础上，使用数百G中文语料，训练了100万步，累积训练了1.5万亿个中文字词级别token
+ 3. 大规模任务数据：使用了16种任务类型，数百种任务，累积亿级别任务数据。
+ 4. 混合预训练：一方面将下游任务作为预训练语料，另一方面将下游任务和预训练语料一起训练，减少任务灾难遗忘以及缩短预训练和下游任务的距离，更好的适应下游任务（<a href='https://arxiv.org/abs/2111.10952'>ExT5</a>）
+ 5. 混合采样：针对众多数据量差异极大的任务，采用在每个训练batch内对所有的任务进行按照比例采样，根据任务的数据量进行平滑采样，并且同时限制任务数据量采样池的上限。
+            平滑采样可以减少任务训练有偏危害，在每一batch内训练可以减少异质任务之间训练负迁移的情况(T5)
+ 6. 分阶段训练：一方面指在预训练分阶段，涉及训练序列长度的分阶段（128和512），加快预训练速度(Bert)；另一方面，在下游训练分阶段，
+     涉及学习率和序列长度的变化以及递减式对下游任务的数据量限制，更好的适应下游的不同任务
+ 7. 增加语言模型的训练：参考t5.1.1, 除了使用Span Corrpution构建的方式进行无监督训练，同时在使用prefix LM的方式训练，增强生成任务的能力(<a href='https://arxiv.org/abs/1910.10683'>LM adapted</a>) 
+ 8. 增加对模型的encoder以及decoder的训练：根据下游任务数据分别构建Data_text,Data_target预训练数据语料，是加入到预训练中，分别增强模型的encoder理解能力和
+    decoder的生成能力（见<a href='https://arxiv.org/abs/2203.12277'>UIE</a>）
+ 9. 重新构建模型中文字典：使用sentencepiece上在千亿token上学习并构建模型字典，更加符合中文语言习惯
+    
+
 
 
 #### 效果对比
@@ -343,4 +360,7 @@ PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/L
 6. <a href='https://arxiv.org/abs/2201.06910'>ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-Shot Generalization</a>
 7. <a href='https://arxiv.org/abs/2111.10952'>ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
 8. <a href='https://arxiv.org/abs/2204.07705'>Natural-Instructions v2: Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks</a>
-
+9. <a href='https://arxiv.org/abs/1910.10683'>LM adapted: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a>
+10. <a href='https://arxiv.org/abs/2203.12277'>UIE: Unified Structure Generation for Universal Information Extraction</a>
+11. <a href='https://arxiv.org/abs/2111.10952'>ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning</a>
+</a>
