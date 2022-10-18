@@ -36,19 +36,38 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 
 
 #### 效果对比
-| 模型   | Score  | 参数    | classify  | emotion_analysis  | similar   | nli   | anaphora_resolution | reading_comprehension  | keywords_extraction | ner | knowledge_graph | nmt | summary  | correct | qa | generate | paraphrase |  
-| :----:| :----: | :----: | :----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |
-| <a href="">PromptCLUE-base</a>        | 63.47 | 220M | 89.56 | 80.55   | 70.94 | 78.00 | 30.00  |  71.69 | 41.44 | 63.02 | TODO  | 55.92 |31.71  | 66.50 | 21.18 | 35.86 | TODO |
-| <a href="">PromptCLUE-large</a>      | 70.55(+7.08) | 770M |92.89 | 85.64   | 78.47 | 86.67  | 64.00   | 84.78  | 47.78  |70.09   | TODO  | 59.67  | 34.48  | 71.50  | 27.05  | 39.87 | TODO | 
+
+|    | PromptCLUE-base  | PromptCLUE-large    | 
+| :----:| :----: | :----: | 
+|  Score  | 63.47  | 70.55(+7.08)   | 
+|   参数  | 220M |  770M   |  
+| *理解任务*（acc，10类） |  | | 
+| 分类 classify | 89.56 | 92.89| 
+| 情感分析 emotion_analysis | 80.55 | 85.64 | 
+| 相似度计算 similar | 70.94 | 78.47 | 
+| 自然语言推理 nli | 78.00 | 86.67 | 
+| 指代消解 anaphora_resolution | 30.00 | 64.00| 
+| 阅读理解 reading_comprehension | 71.69 | 84.78 | 
+| 关键词提取 keywords_extraction | 41.44 | 47.78 | 
+| 信息抽取 ner | 63.02 | 70.09 | 
+| 知识图谱问答 knowledge_graph  | - | TODO |
+| 中心词提取 Keyword_extraction | - |71.50 |  
+| *生成任务*（rouge，6类） |  |   | 
+| 翻译（英中、中英） nmt | 55.92 | 59.67 | 
+| 摘要 summary | 31.71 | 34.48| 
+| 问答 qa | 21.18 | 27.05 | 
+| 生成（文章、问题生成） | 35.86 | 39.87 | 
+| 改写 paraphrase | - | TODO | 
+| 纠错 correct | - | TODO  | 
 
 #### 使用方式及申请
-add
-
-### License（许可证） 
-add 
+请提供以下<a hre=''>表格申请</a>
 
 ### 在线使用
 <a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
+
+### License（许可证） 
+PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENSE'>非商用License</a>
 
 ### 使用方法
 ##### 安装需要的项目和包
