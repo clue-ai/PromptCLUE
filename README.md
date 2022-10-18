@@ -13,14 +13,39 @@
 # PromptCLUE
 PromptCLUE：大规模多任务Prompt预训练中文开源模型
 
+实现了中文上的三大统一：统一模型，统一任务，统一数据组织形式，并且支持几十个不同类型的任务；
+
+
 ### 简介
 PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具有零样本学习能力。
 针对理解类任务，如分类、情感分析、抽取等，可以自定义标签体系；针对生成任务，可以进行采样自由生成。
 基于t5模型，使用1000亿中文token（字词级别）进行大规模预训练，并且在100+任务上进行多任务学习获得。
 
 #### Update 更新
+ ***2022-10-18: PromptCLUE-large版，已经可以申请***
+ 
  ***2022-10-04: 添加了自定义数据集进行训练，PyTorch实现***
 
+### PromptCLUE-large版
+
+#### 简介
+千亿中文token上大规模预训练，亿级任务数据上完成训练，训练任务超过150+；比base版平均任务提升7个点+；具有更好的理解、生成、问答、翻译和抽取等等能力。
+
+#### 技术与训练过程
+在t5-large版基础上训练了100万步。预训练--多阶段Prompt多任务学习
+
+
+#### 效果对比
+| 模型   | Score  | 参数    | classify  | emotion_analysis  | similar   | nli   | anaphora_resolution | reading_comprehension  | keywords_extraction | ner | knowledge_graph | nmt | summary  | correct | qa | generate | paraphrase |  
+| :----:| :----: | :----: | :----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |:----: |
+| <a href="">PromptCLUE-base</a>        | 63.47 | 220M | 89.56 | 80.55   | 70.94 | 78.00 | 30.00  |  71.69 | 41.44 | 63.02 | TODO  | 55.92 |31.71  | 66.50 | 21.18 | 35.86 | TODO |
+| <a href="">PromptCLUE-large</a>      | 70.55(+7.08) | 770M |92.89 | 85.64   | 78.47 | 86.67  | 64.00   | 84.78  | 47.78  |70.09   | TODO  | 59.67  | 34.48  | 71.50  | 27.05  | 39.87 | TODO | 
+
+#### 使用方式及申请
+add
+
+### License（许可证） 
+add 
 
 ### 在线使用
 <a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
@@ -280,13 +305,16 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
     Model output:
     喜欢
     -----------------
-    
+  
     
 ### 技术交流和问题反馈
 <p float="left">
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai2.jpeg"  width="29%" height="29%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="29%" height="29%" /> 
 </p> 
+
+
+### 相关资料
 
 
 
