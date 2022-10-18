@@ -13,7 +13,7 @@
 # PromptCLUE
 PromptCLUE：大规模多任务Prompt预训练中文开源模型
 
-实现了中文上的三大统一：统一模型，统一任务，统一数据组织形式，并且支持几十个不同类型的任务；
+实现了中文上的三大统一：统一模型框架，统一任务形式，统一应用方式，并且支持几十个不同类型的任务；
 
 
 ### 简介
@@ -37,10 +37,10 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 
 #### 效果对比
 
-|    | PromptCLUE-base  | PromptCLUE-large    | 
+|  任务类型  | PromptCLUE-base  | PromptCLUE-large    | 
 | :----:| :----: | :----: | 
-|  Score  | 63.47  | 70.55(+7.08)   | 
-|   参数  | 220M |  770M   |  
+|  分数 Score  | 63.47  | 70.55(+7.08)   | 
+|   参数 Parameters  | 220M |  770M   |  
 | *理解任务*（acc，10类） |  | | 
 | 分类 classify | 89.56 | 92.89| 
 | 情感分析 emotion_analysis | 80.55 | 85.64 | 
@@ -328,12 +328,19 @@ PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/L
     
 ### 技术交流和问题反馈
 <p float="left">
-   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/clueai2.jpeg"  width="29%" height="29%" />   
+   <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/promptclue_group.jpeg"  width="29%" height="29%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="29%" height="29%" /> 
 </p> 
 
 
 ### 相关资料
 
-
+1. <a href='https://arxiv.org/abs/1910.10683'>t5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer</a>
+2. <a href='https://github.com/google-research/text-to-text-transfer-transformer'>t5 repo</a>
+3. <a href='https://arxiv.org/abs/2110.08207'>T0: Multitask Prompted Training Enables Zero-Shot Task Generalization</a>
+4. <a href='https://arxiv.org/abs/2202.01279'>PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts</a>
+5. <a href='https://www.163.com/dy/article/H2IN7ES10511CQLG.html'>后Prompt时代 | NLP统一范式：预训练+大规模多任务学习</a>
+6. <a href='https://arxiv.org/abs/2201.06910'>ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-Shot Generalization</a>
+7. <a href='https://arxiv.org/abs/2111.10952'>ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
+8. <a href='https://arxiv.org/abs/2204.07705'>Natural-Instructions v2: Benchmarking Generalization via In-Context Instructions on 1,600+ Language Tasks</a>
 
