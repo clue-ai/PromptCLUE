@@ -2,7 +2,7 @@
 <br>
 <br>
 <br>
-<a href="https://clueai.cn"><img src="docs/imgs/logo.png" alt="CLUEAI logo: The data structure for unstructured data" height="60%" ></>
+<a href="https://clueai.cn"><img src="docs/imgs/logo.png" alt="CLUEAI logo: The data structure for unstructured data" height="50%" ></>
 <br>
 <br>
 <br>
