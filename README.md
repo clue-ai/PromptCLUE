@@ -31,7 +31,8 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 
 ### PromptCLUE-large版
 
-千亿中文token上大规模预训练，亿级任务数据上完成训练，训练任务超过150+；比base版平均任务提升7个点+；具有更好的理解、生成、问答、翻译和抽取等等能力。
+千亿中文token上大规模预训练，亿级中文任务数据上完成训练，训练任务超过150+。
+比base版平均任务提升7个点+；具有更好的理解、生成、问答、翻译和抽取等等能力。
 
 ### 技术与训练过程
  1. 三大统一：统一模型框架(text-to-text)，统一任务形式(prompt)，统一应用方式(zero-shot/few-shot)。 (<a href='https://arxiv.org/abs/2110.08207'>T0</a>）
@@ -81,7 +82,8 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
 <a href='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
 
 ### License（许可证）
-1）PromptCLUE-base可直接下载和使用
+1）PromptCLUE-base可直接下载和使用；
+
 2）PromptCLUE-large版的<a href='https://github.com/clue-ai/PromptCLUE/blob/main/LICENSE'>非商用License</a>
 
 ### 使用方法
@@ -91,8 +93,8 @@ PromptCLUE：是一个多任务中文模型，支持众多中文任务，并具�
     pip install sentencepiece
 ##### 加载模型
     from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
-    tokenizer = AutoTokenizer.from_pretrained("ClueAI/PromptCLUE")
-    model = AutoModelForSeq2SeqLM.from_pretrained("ClueAI/PromptCLUE") 
+    tokenizer = AutoTokenizer.from_pretrained("ClueAI/PromptCLUE-base")
+    model = AutoModelForSeq2SeqLM.from_pretrained("ClueAI/PromptCLUE-base") 
 ##### 使用模型进行预测
     import torch
     from transformers import AutoTokenizer
