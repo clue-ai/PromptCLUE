@@ -11,7 +11,6 @@
 <b>整合全球中文信息，通过人工智能服务， 使人人皆可访问并从中受益</b>
 </p>
 
- <img src="docs/imgs/promptclue1080_1.gif"  alt="CLUEAI logo"  />  
  <img src="docs/imgs/promptclue1080_2.gif"  alt="CLUEAI logo" />  
 
 # PromptCLUE
