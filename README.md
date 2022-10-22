@@ -11,7 +11,7 @@
 <b>整合全球中文信息，通过人工智能服务， 使人人皆可访问并从中受益</b>
 </p>
 
-
+ <img src="docs/imgs/promptclue.gif"  alt="CLUEAI logo" width="72%" height="72%" />  
 # PromptCLUE
 PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
