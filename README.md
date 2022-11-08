@@ -329,6 +329,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
     美联储，利率目标区间，加息，基点
     -----------------
     情感倾向(classify)
+    Input:
     文字中包含了怎样的情感：
     超可爱的帅哥，爱了。。。
     选项：厌恶，喜欢，开心，悲伤，惊讶，生气，害怕
@@ -337,8 +338,35 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
     Model output:
     喜欢
     -----------------
-  
+    文本纠错(corrrect)：
+    Input:    
+    文本纠错：
+    你必须服从命令，不要的考虑。你的思想被别人手下来。
+    答案：
     
+    Model output:
+    你必须服从命令，不要考虑。你的思想被别人打下来。
+    -----------------
+    问答(qa)
+    Input:
+    问答：
+    问题：阿里巴巴的总部在哪里：
+    答案：
+    
+    Model output:
+    浙江省杭州市
+   -----------------  
+   改写(paraphrasing)
+ 
+   Input:
+   生成与下列文字相同意思的句子：
+   长期通胀前景在今天可能不确定性更大。
+   答案：
+   
+   Model output:
+   长期通胀前景在今天可能会更加不确定。
+   -----------------  
+   
 ### 技术交流和问题反馈
 <p float="left">
    <img src="https://github.com/clue-ai/PromptCLUE/blob/main/docs/imgs/promptclue.jpeg"  width="29%" height="29%" />   
