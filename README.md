@@ -28,6 +28,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
 统一应用方式：对目标任务形成拿来即用的模型，下游应用时都可转化为统一的prompt自适应方式，进行zero-shot/few-shot测试。
 
+ <img src="docs/imgs/promptclue.png" /> 
 
 ### 效果对比--16类中文任务
 
