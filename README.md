@@ -55,6 +55,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 | 改写 paraphrase | - | 57.68  | 
 | 纠错 correct | - | 93.35  | 
 
+ <img src="docs/imgs/clueai_demo_max.gif" /> 
 
 ### 技术与训练过程
  1. 三大统一：统一模型框架(text-to-text)，统一任务形式(prompt)，统一应用方式(zero-shot/few-shot)。 (<a href='https://arxiv.org/abs/2110.08207'>T0</a>）
