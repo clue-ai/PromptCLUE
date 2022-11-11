@@ -22,13 +22,13 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
 千亿中文token上大规模预训练，累计学习1.5万亿中文token，亿级中文任务数据上完成训练，训练任务超过150+。比base版平均任务提升7个点+；具有更好的理解、生成和抽取能力，并且支持文本改写、纠错、知识图谱问答。
 
+ <img src="docs/imgs/promptclue.png" /> 
+
 统一模型框架：采用Text-to-Text的生成式预训练模型进行统一建模。
 
 统一任务形式：Prompt统一不同的NLP任务间的差异，转化为统一的text-to-text数据形式。
 
 统一应用方式：对目标任务形成拿来即用的模型，下游应用时都可转化为统一的prompt自适应方式，进行zero-shot/few-shot测试。
-
- <img src="docs/imgs/promptclue.png" /> 
 
 ### 效果对比--16类中文任务
 
