@@ -370,7 +370,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
    
 ### 技术交流和问题反馈
 <p float="left">
-   <img src="https://github.com/clue-ai/PromptCLUE/blob/main/docs/imgs/promptclue.jpeg"  width="29%" height="29%" />   
+   <img src="https://github.com/clue-ai/PromptCLUE/blob/main/docs/imgs/promptclue_group.jpeg"  width="29%" height="29%" />   
    <img src="https://github.com/clue-ai/clueai-python/blob/main/docs/imgs/brightmart.jpeg"  width="29%" height="29%" /> 
 </p> 
 
