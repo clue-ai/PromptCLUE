@@ -31,7 +31,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
 ### 效果对比--16类中文任务
 
-|  任务类型  | PromptCLUE-base  | PromptCLUE-large    | 
+|  任务类型  | PromptCLUE-base  | <a href='https://www.clueai.cn'>PromptCLUE-large</a>    | 
 | :----:| :----: | :----: | 
 |  **分数** Score  | 63.47  | 70.55(+7.08)   | 
 |   参数 Parameters  | 220M |  770M   |  
