@@ -12,6 +12,11 @@
 </p>
  
 
+    
+### 在线使用
+<a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://www.clueai.cn' targe='_blank'>clueai工具包(large版)</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址(base版)</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
+
+
 # PromptCLUE
 PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
@@ -71,12 +76,6 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
     decoder的生成能力（见<a href='https://arxiv.org/abs/2203.12277'>UIE</a>）
  9. 重新构建模型中文字典：使用sentencepiece上在千亿token上学习并构建模型字典，更加符合中文语言习惯
     
-    
-### 在线使用
-<a href='https://www.cluebenchmarks.com/clueai.html' targe='_blank'>在线demo</a> | <a href='https://huggingface.co/ClueAI/PromptCLUE' targe='_blank'>huggingface下载地址</a> |   <a href='https://colab.research.google.com/drive/1noyBA_JrYO6Lk6cwxsNZ_jdJ-Jtaf82G?usp=sharing#scrollTo=Nk2tSi3vnSN0' targe='_blank'>colab使用示例</a> |  <a href='https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing' targe='_blank'>自定义数据集进行训练</a> |  <a href='https://github.com/CLUEbenchmark/pCLUE' targe='_blank'>prompt中文数据集</a>
-
-### Large版在线申请
-<a href='https://docs.qq.com/form/page/DRVFUb1dIZExjcGxM'>在线申请</a>
 
 ### License（许可证）
 1）PromptCLUE-base可直接下载和使用；
