@@ -149,7 +149,7 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 
 * 使用pCLUE数据集进行训练、预测和效果验证, pytorch实现--在线colab
   
-  [![Open In Colab](https://colab.research.google.com/drive/1lEyFhEfoc-5Z5xqpEKkZt_iMaojH1MP_?usp=sharing)
+  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1QIQDWAACkV7-iRrkrk18XrRjEekMhOtv?usp=sharing)
   
 ### <a href='https://cluebenchmarks.com/pclue.html'>pCLUE基准上的效果</a>
  
