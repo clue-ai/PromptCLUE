@@ -413,7 +413,3 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 10. <a href='https://arxiv.org/abs/2203.12277'>UIE: Unified Structure Generation for Universal Information Extraction</a>
 11. <a href='https://arxiv.org/abs/2111.10952'>ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning</a>
 </a>
-
-----------
-
-Research Supported by TPU Research Cloud(TRC)
