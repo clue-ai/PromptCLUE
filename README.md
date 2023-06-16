@@ -413,10 +413,11 @@ PromptCLUE：大规模多任务Prompt预训练中文开源模型。
 10. <a href='https://arxiv.org/abs/2203.12277'>UIE: Unified Structure Generation for Universal Information Extraction</a>
 11. <a href='https://arxiv.org/abs/2111.10952'>ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning</a>
 </a>
+
 ### 引用
 如果你觉得PromptCLUE对你有帮助，请用以下引用 BibTeX:
 ```
-@software{openlm2023openllama,
+@software{clueai2023promptclue,
   author = {Xuanwei Zhang and Liang Xu},
   title = {PromptCLUE: A zero-shot learning model that supports full Chinese tasks},
   month = Sep,
